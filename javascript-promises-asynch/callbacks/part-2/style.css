@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  background-color: blue; /* Changed background color to blue */
+}
+
+button {
+  padding: 15px;
+  background-color: darkred; /* Changed background color to dark red */
+  color: white;
+  border-radius: 10px; /* Slightly increased border-radius */
+  border: none;
+  display: none;
+  margin: 0 auto;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #8b0000; /* Darkened hover background color */
+}
+
+button:active,
+button:focus {
+  outline: none;
+}
+
+#card-area {
+  margin-top: 100px; /* Adjusted margin-top */
+}
+
+#card-area > img {
+  position: absolute;
+  left: 50%; /* Centered the card horizontally */
+  transform: translateX(-50%); /* Adjusted to center the card horizontally */
+  margin-top: 20px; /* Added margin-top to provide space between button and card */
+}

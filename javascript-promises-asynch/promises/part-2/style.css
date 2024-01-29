@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  background-color: #3498db;
+}
+
+button {
+  padding: 15px;
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  display: none;
+  margin: 0 auto;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #c0392b;
+}
+
+button:active,
+button:focus {
+  outline: none;
+}
+
+#card-area {
+  margin-top: 100px;
+}
+
+#card-area > img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  transform: translateY(-50%);
+}
